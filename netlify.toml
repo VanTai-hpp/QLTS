@@ -1,0 +1,15 @@
+[build]
+  command = "echo 'Static build ready for Netlify'"
+  publish = "."
+  functions = "netlify/functions"
+
+[build.environment]
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[functions."zalo-daily"]
+  schedule = "0 1,2,3 * * *"
+

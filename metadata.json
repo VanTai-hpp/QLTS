@@ -1,0 +1,6 @@
+{
+  "name": "CRM Tuyển Sinh Đa Cơ Sở",
+  "description": "Hệ thống CRM quản lý tuyển sinh và chăm sóc học viên đa cơ sở (Bến Lức, Đức Hòa) tích hợp Firebase Firestore.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
